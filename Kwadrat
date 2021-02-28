@@ -1,0 +1,14 @@
+package com.company;
+import java.util.Scanner;
+public class kwadrat {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+            System.out.print("Ile wynosi bok kwadratu?: ");
+
+        int bok = input.nextInt();
+        long wynik = bok * bok;
+
+            System.out.printf("Jeśli bok = %d, to pole = %d", bok, wynik);
+    }
+}
